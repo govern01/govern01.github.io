@@ -8,7 +8,7 @@ const Layout = (props) => (
             <meta name='description' content={props.description} />
         </Helmet>
         <div id='wrapper'>
-            <div id='main'>
+            <div id='main' style={{paddingBottom: "100vh"}}>
                 {props.children}
             </div>
             <Footer />

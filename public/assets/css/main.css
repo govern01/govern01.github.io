@@ -2083,6 +2083,37 @@ table {
   body.is-preload .wrapper.fade > .inner {
     opacity: 0; }
 
+/* indexNavbar */
+.indexNabarWrapper {
+  position: relative; }
+
+.indexNavbar {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  border: 2px solid purple;
+  border-left: 4px solid purple; }
+  .indexNavbar .about {
+    border-bottom: 2px solid gray;
+    font-size: 0em; }
+    .indexNavbar .about h1 {
+      font-size: large; }
+    .indexNavbar .about h2 {
+      font-size: medium; }
+  .indexNavbar .links li {
+    padding-left: 0em;
+    list-style: none;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: 1px gray solid; }
+    .indexNavbar .links li:last-of-type {
+      border-right: none; }
+
 /* Header */
 #header {
   display: -moz-flex;
