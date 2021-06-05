@@ -24,3 +24,6 @@ yarn-error.log*
 
 # reference
 /public/theme
+
+# template
+/src/data/projects/Template.md

@@ -1,0 +1,41 @@
+[
+    {
+        "company": "The Programming Club",
+        "position": "Secretary",
+        "key": 0,
+        "dates": "May 2019-Present",
+        "desc": "The Programming Club is one of the student academic clubs at RMIT, entirely student managed and university-funded. At The Programming Club, we taught students new and different topics with extracurricular events.",
+        "bulletpoints": [
+            "Running and Scheduling Events",
+            "Organising Meetings",
+            "Tracking Minutes",
+            "Internal and External stakeholder engagement",
+            "Input on club direction"
+        ]
+    },
+    {
+        "company": "RMIT ITS",
+        "position": "Hackathon Volunteer",
+        "key": 1,
+        "dates": "June 2019-Augast 2019",
+        "desc": "The Information Technology Services hackathon was a 27hr event featuring games, catering and mentoring. As a hackathon it was a lot more laid back as it was intended as a gateway for first and second-year students.",
+        "bulletpoints": [
+            "Ushering",
+            "Assembling/Handing out tote bags",
+            "Directing and Appearing in Promotional Material",
+            "Distributing Catering"
+        ]
+    },
+    {
+        "company": "ACS",
+        "position": "Student Advocate",
+        "key": 2,
+        "dates": "June 2019",
+        "desc": "The BiG Day In is a technology conference aimed towards secondary school students to give them an idea of what the technology sector looks like as a career as well as the breadth of opportunities in it.",
+        "bulletpoints": [
+            "Ushering",
+            "Ad Hoc Responsibilities",
+            "Setting up Exhibition Hall"
+        ]
+    }
+]
