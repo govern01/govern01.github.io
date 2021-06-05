@@ -10,8 +10,10 @@ const Main = (props) => (
         </Helmet>
         <div id='wrapper'>
             <Navbar />
-            <div id='main'>
-                {props.children}
+            <div id='main' className='wrapper'>
+                <div className='inner'>
+                    {props.children}
+                </div>
             </div>
             <Footer />
         </div>
