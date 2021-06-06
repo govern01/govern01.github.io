@@ -9,6 +9,7 @@ const About = () => (
     <Main description={"Jacob Morris' About me"}>
         <div>
             <ReactMarkdown components={{
+                // eslint-disable-next-line
                 h1: ({node, ...props}) => <h1 className='major' {...props} />
             }} children={markdown} />
         </div>

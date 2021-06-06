@@ -1,0 +1,21 @@
+///
+/// Following the Hyperspace theme by HTML5 UP
+/// html5up.net | @ajlkn
+///
+/// Current file developed by Jacob Morris
+///
+
+/* skillbar */
+.skillBg{
+    width: 100%;
+    height: 38px;
+    background: _palette(accent1);
+
+    .content {
+        display: inline;
+        font-size: 1em;
+        padding: 5px;
+        background-color: rgba(0,0,0,0.2);
+        color: white;
+    }
+}

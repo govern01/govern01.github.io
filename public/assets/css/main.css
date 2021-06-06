@@ -2114,6 +2114,18 @@ table {
     .indexNavbar .links li:last-of-type {
       border-right: none; }
 
+/* skillbar */
+.skillBg {
+  width: 100%;
+  height: 38px;
+  background: #5e42a6; }
+  .skillBg .content {
+    display: inline;
+    font-size: 1em;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white; }
+
 /* Header */
 #header {
   display: -moz-flex;
