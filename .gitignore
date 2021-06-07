@@ -27,3 +27,6 @@ yarn-error.log*
 
 # template
 /src/data/projects/Template.md
+
+# editor
+/.vscode
