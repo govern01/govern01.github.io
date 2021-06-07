@@ -8,7 +8,6 @@
 /* resume */
 #Blurb {
     // Code adapted from ./base/_typography.scss, mimicing the header underline thingy as a divider
-    margin: 0 0 (_size(element-margin) * 0.65) 0;
     position: relative;
     padding-bottom: 0.35em;
     &::after {
@@ -53,7 +52,6 @@
 }
 #Education {
     // Code adapted from ./base/_typography.scss, mimicing the header underline thingy as a divider
-    margin: 0 0 (_size(element-margin) * 0.65) 0;
     position: relative;
     padding-bottom: 0.35em;
     &::after {
@@ -68,7 +66,12 @@
         width: 100%;
     }
 
+    >h3{
+        padding-bottom: 1em;
+    }
+
     article {
+        width: fit-content;
         margin-bottom: 1em;
         &::before {
             content: "";
@@ -76,7 +79,7 @@
             width: 120px;
             height: 3px;
             display: block;
-            top: 10px;
+            margin-bottom: 5px;
         }
     }
 
@@ -87,7 +90,6 @@
 }
 #Experience {
     // Code adapted from ./base/_typography.scss, mimicing the header underline thingy as a divider
-    margin: 0 0 (_size(element-margin) * 0.65) 0;
     position: relative;
     padding-bottom: 0.35em;
     &::after {
@@ -102,14 +104,19 @@
         width: 100%;
     }
 
+    >h3{
+        padding-bottom: 1em;
+    }
+
     article {
+        width: fit-content;
         &::before {
             content: "";
             background-color: _palette(accent2);
             width: 120px;
             height: 3px;
             display: block;
-            top: 10px;
+            margin-bottom: 5px;
         }
     }
 

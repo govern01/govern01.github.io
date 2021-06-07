@@ -2131,7 +2131,6 @@ table {
 
 /* resume */
 #Blurb {
-  margin: 0 0 1.3em 0;
   position: relative;
   padding-bottom: 0.35em; }
   #Blurb::after {
@@ -2169,7 +2168,6 @@ table {
         color: rgba(255, 255, 255, 0.35); }
 
 #Education {
-  margin: 0 0 1.3em 0;
   position: relative;
   padding-bottom: 0.35em; }
   #Education::after {
@@ -2188,7 +2186,10 @@ table {
     position: absolute;
     right: 0;
     width: 100%; }
+  #Education > h3 {
+    padding-bottom: 1em; }
   #Education article {
+    width: fit-content;
     margin-bottom: 1em; }
     #Education article::before {
       content: "";
@@ -2196,13 +2197,12 @@ table {
       width: 120px;
       height: 3px;
       display: block;
-      top: 10px; }
+      margin-bottom: 5px; }
   #Education .date {
     margin-bottom: 0em;
     font-size: 0.75em; }
 
 #Experience {
-  margin: 0 0 1.3em 0;
   position: relative;
   padding-bottom: 0.35em; }
   #Experience::after {
@@ -2221,13 +2221,17 @@ table {
     position: absolute;
     right: 0;
     width: 100%; }
-  #Experience article::before {
-    content: "";
-    background-color: #5052b5;
-    width: 120px;
-    height: 3px;
-    display: block;
-    top: 10px; }
+  #Experience > h3 {
+    padding-bottom: 1em; }
+  #Experience article {
+    width: fit-content; }
+    #Experience article::before {
+      content: "";
+      background-color: #5052b5;
+      width: 120px;
+      height: 3px;
+      display: block;
+      margin-bottom: 5px; }
   #Experience .date {
     font-size: 0.75em;
     margin-bottom: 0.5em; }
