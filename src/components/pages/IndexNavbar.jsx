@@ -7,7 +7,6 @@ function IndexNavbar() {
                 <div className="about">
                     <h1>Welcome to my Website!</h1>
                     <h2>~~My name is Jacob Morris, aka Govern01</h2>
-                    <p>work you fuck</p>
                 </div>
                 <div className="links">
                     {/* Add in links and buttons n shit */}
