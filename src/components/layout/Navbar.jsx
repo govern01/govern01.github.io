@@ -9,8 +9,8 @@ function Navbar() {
                 <Link to="/" className="title">GOVE</Link>
                 <nav>
                     <ul>
-                        <li><Link to='/resume'>Resume</Link></li>
                         <li><Link to='/about'>About</Link></li>
+                        <li><Link to='/resume'>Resume</Link></li>
                         <li><Link to='/projects'>Projects</Link></li>
                     </ul>
                 </nav>
