@@ -14,7 +14,7 @@ Contributing to my mechanical adoration, I spend a lot of time learning new math
 - I played WAY too much TF2 in my early teens and WAY too much League of Legends in my late teens
 - In 2016 I came up with my Magnum Opus, an anthology of games
 - I started teaching myself Unity and C# at the start of 2021
-- During the right now times I built my first website, you can find it here ***TODO link to index***
+- During the right now times I built my first website.
 
 ## My Likes
 
