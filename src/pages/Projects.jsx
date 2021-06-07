@@ -2,7 +2,7 @@ import React from 'react';
 import Main from '../templates/ContentLayout';
 
 const Projects = () => (
-    <Main description={"Jacob Morris' projects"}>
+    <Main title={"Projects"} description={"Jacob Morris' projects"}>
         <p>Hello World: This is an Projects</p>
     </Main>
 );

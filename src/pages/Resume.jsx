@@ -12,7 +12,7 @@ import skills from '../data/resume/Skills.json'
 const blurb = raw("../data/resume/Blurb.md")
 
 const Resume = () => (
-    <Main description={"Jacob Morris' resume"}>
+    <Main title={"Resume"} description={"Jacob Morris' resume"}>
         <div id="Blurb">
             <ReactMarkdown components={{
                 // eslint-disable-next-line

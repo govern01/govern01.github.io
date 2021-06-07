@@ -6,7 +6,7 @@ import ReactMarkdown from 'react-markdown';
 const markdown = raw('../data/About.md')
 
 const About = () => (
-    <Main description={"Jacob Morris' About me"}>
+    <Main title={"About"} description={"Jacob Morris' About me"}>
         <div>
             <ReactMarkdown components={{
                 // eslint-disable-next-line
