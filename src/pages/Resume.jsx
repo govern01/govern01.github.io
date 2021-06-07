@@ -1,15 +1,20 @@
 import React from 'react';
-import Main from '../templates/ContentLayout';
-import ReactMarkdown from 'react-markdown';
 import raw from 'raw.macro';
-import EducationList from '../components/pages/resume/EducationList';
-import qualifications from '../data/resume/Qualifications.json';
-import ExperienceList from '../components/pages/resume/ExperienceList';
-import experiences from '../data/resume/Experience.json';
-import SkillList from '../components/pages/resume/SkillList';
-import skills from '../data/resume/Skills.json'
 
-const blurb = raw("../data/resume/Blurb.md")
+// Layout
+import Main from '../templates/ContentLayout';
+
+// Components
+import ReactMarkdown from 'react-markdown';
+import EducationList from '../components/pages/resume/EducationList';
+import ExperienceList from '../components/pages/resume/ExperienceList';
+import SkillList from '../components/pages/resume/SkillList';
+
+// Data
+import qualifications from '../data/resume/qualifications.json';
+import experiences from '../data/resume/experience.json';
+import skills from '../data/resume/skills.json'
+const blurb = raw("../data/resume/blurb.md")
 
 const Resume = () => (
     <Main title={"Resume"} description={"Jacob Morris' resume"}>

@@ -3,7 +3,7 @@ import Main from '../templates/ContentLayout';
 import raw from 'raw.macro';
 import ReactMarkdown from 'react-markdown';
 
-const markdown = raw('../data/About.md')
+const markdown = raw('../data/about.md')
 
 const About = () => (
     <Main title={"About"} description={"Jacob Morris' About me"}>
