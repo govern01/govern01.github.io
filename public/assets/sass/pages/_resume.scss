@@ -1,0 +1,129 @@
+///
+/// Following the Hyperspace theme by HTML5 UP
+/// html5up.net | @ajlkn
+///
+/// Current file developed by Jacob Morris
+///
+
+/* resume */
+#Blurb {
+    // Code adapted from ./base/_typography.scss, mimicing the header underline thingy as a divider
+    margin: 0 0 (_size(element-margin) * 0.65) 0;
+    position: relative;
+    padding-bottom: 0.35em;
+    &::after {
+        @include vendor("background-image", "linear-gradient(to right, #{_palette(accent1)}, #{_palette(accent3)})");
+        @include vendor("transition", "max-width #{_duration(transition)} ease");
+        border-radius: 0.2em;
+        bottom: 0;
+        content: "";
+        height: 0.1em;
+        position: absolute;
+        right: 0;
+        width: 100%;
+    }
+
+    > ul {
+        text-align: center;
+        list-style: none;
+        padding-left: 0;
+        > li {
+            display: inline;
+            padding-left: 1vw;
+            padding-right: 1vw;
+            border-right: 2px solid _palette(accent1);
+            font-size: 1.25em;
+
+            &:last-of-type {
+                padding-right: 0;
+                border-right: none;
+            }
+            &:first-of-type {
+                padding-left: 0;
+            }
+
+            > a {
+                color: _palette(border_bg);
+                &:hover {
+                    color: _palette(fg-light);
+                }
+            }
+        }
+    }
+}
+#Education {
+    // Code adapted from ./base/_typography.scss, mimicing the header underline thingy as a divider
+    margin: 0 0 (_size(element-margin) * 0.65) 0;
+    position: relative;
+    padding-bottom: 0.35em;
+    &::after {
+        @include vendor("background-image", "linear-gradient(to right, #{_palette(accent1)}, #{_palette(accent3)})");
+        @include vendor("transition", "max-width #{_duration(transition)} ease");
+        border-radius: 0.2em;
+        bottom: 0;
+        content: "";
+        height: 0.1em;
+        position: absolute;
+        right: 0;
+        width: 100%;
+    }
+
+    article {
+        margin-bottom: 1em;
+        &::before {
+            content: "";
+            background-color: _palette(accent2);
+            width: 120px;
+            height: 3px;
+            display: block;
+            top: 10px;
+        }
+    }
+
+    .date {
+        margin-bottom: 0em;
+        font-size: 0.75em;
+    }
+}
+#Experience {
+    // Code adapted from ./base/_typography.scss, mimicing the header underline thingy as a divider
+    margin: 0 0 (_size(element-margin) * 0.65) 0;
+    position: relative;
+    padding-bottom: 0.35em;
+    &::after {
+        @include vendor("background-image", "linear-gradient(to right, #{_palette(accent1)}, #{_palette(accent3)})");
+        @include vendor("transition", "max-width #{_duration(transition)} ease");
+        border-radius: 0.2em;
+        bottom: 0;
+        content: "";
+        height: 0.1em;
+        position: absolute;
+        right: 0;
+        width: 100%;
+    }
+
+    article {
+        &::before {
+            content: "";
+            background-color: _palette(accent2);
+            width: 120px;
+            height: 3px;
+            display: block;
+            top: 10px;
+        }
+    }
+
+    .date {
+        font-size: 0.75em;
+        margin-bottom: 0.5em;
+    }
+
+    .desc {
+        margin-bottom: 1em;
+    }
+    ul {
+        font-size: 0.85em;
+        padding-left: 0;
+        list-style-type: "-";
+    }
+}

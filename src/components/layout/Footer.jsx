@@ -17,7 +17,7 @@ function Footer() {
                         </ul>
                     </div>
                     <ul className="menu">
-                        <li>&copy; Jacob Morris. TODO add License.</li>
+                        <li>&copy; Jacob Morris. Licensed with MIT.</li>
                         <li>Design: <a href="http://html5up.net">HTML5 UP</a>, lovingly edited by me =3</li>
                     </ul>
                 </div>

@@ -2,7 +2,7 @@ import Qualidication from './Qualification';
 
 const EducationList = ({ data }) => {
     return (
-        <div id="education">
+        <div id="Education">
             <h3>Education</h3>
             <div>
                 {data.map((qualification) => (

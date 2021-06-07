@@ -2,7 +2,7 @@ import Experience from './Experience'
 
 const ExperienceList = ({ data }) => {
     return (
-        <div id="experience">
+        <div id="Experience">
             <h3>Work Experience</h3>
             <div>
                 {data.map((experience) => (

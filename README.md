@@ -28,3 +28,4 @@ If this is your first time working with sass make sure to check the docs and und
 ## Acknowledgments & Thanks
 
 - Website theme [Hyperspace](https://html5up.net/hyperspace) by [HTML5up](https://html5up.net)
+- A lot of code from this site is made with reference to [@mldangelo](https://github.com/mldangelo/)'s [personal site](https://github.com/mldangelo/personal-site)

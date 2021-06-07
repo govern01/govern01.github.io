@@ -13,11 +13,18 @@ const blurb = raw("../data/resume/Blurb.md")
 
 const Resume = () => (
     <Main description={"Jacob Morris' resume"}>
-        <ReactMarkdown components={{
-            // eslint-disable-next-line
-            h1: ({ node, ...props }) => <h1 className='major' {...props} />
-        }} children={blurb} />
-        {/* TODO link to sections */}
+        <div id="Blurb">
+            <ReactMarkdown components={{
+                // eslint-disable-next-line
+                h1: ({ node, ...props }) => <h1 className='major' {...props} />
+            }} children={blurb} />
+            {/* TODO link to sections */}
+            <ul>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Skills">Skills</a></li>
+            </ul>
+        </div>
         <EducationList data={qualifications} />
         <ExperienceList data={experiences} />
         <SkillList data={skills} />

@@ -2,9 +2,9 @@ import SkillBar from './SkillBar'
 
 const SkillList = ({ data }) => {
     return(
-        <div>
+        <div id="Skills">
             <h2>Skills</h2>
-            {data.map((skill) => (
+            {data.sort((a, b) => b.level - a.level).map((skill) => (
                 <SkillBar data={skill} key={skill.name}/>
             ))}
         </div>
