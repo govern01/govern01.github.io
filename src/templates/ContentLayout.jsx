@@ -1,6 +1,7 @@
 import { HelmetProvider, Helmet } from 'react-helmet-async';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
+import ContactForm from '../components/layout/ContactForm';
 
 const Main = (props) => (
     <HelmetProvider>
@@ -13,6 +14,7 @@ const Main = (props) => (
             <div id='main' className='wrapper'>
                 <div className='inner'>
                     {props.children}
+                    <ContactForm />
                 </div>
             </div>
             <Footer />

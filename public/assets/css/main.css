@@ -1718,7 +1718,11 @@ ul.actions {
             margin-left: -0.5rem; } }
 
 /* Contact */
+.contact {
+  border-top: 1px solid rgba(255, 255, 255, 0.15); }
+
 ul.contact {
+  border-top: 0;
   list-style: none;
   padding: 0; }
   ul.contact > li {
@@ -1731,7 +1735,8 @@ ul.contact {
 ul.icons {
   cursor: default;
   list-style: none;
-  padding-left: 0; }
+  padding-left: 0;
+  margin-bottom: 0em; }
   ul.icons li {
     display: inline-block;
     padding: 0 0.75em 0 0; }
