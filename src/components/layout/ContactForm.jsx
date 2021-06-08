@@ -12,10 +12,10 @@ const ContactForm = (props) => {
                     <h3>Socials</h3>
                     <ul className="icons">
                         <li>
-                            <a href="https://github.com/govern01" target="_blank" className="icon brands fa-github" />
+                            <a href="https://github.com/govern01" target="_blank" rel="noreferrer" className="icon brands fa-github" />
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/jjamorris/" target="_blank" className="icon brands fa-linkedin-in" />
+                            <a href="https://www.linkedin.com/in/jjamorris/" target="_blank" rel="noreferrer" className="icon brands fa-linkedin-in" />
                         </li>
                     </ul>
                 </li>
