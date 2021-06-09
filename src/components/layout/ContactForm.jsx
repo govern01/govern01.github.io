@@ -1,6 +1,6 @@
 
 const ContactForm = (props) => {
-    return(
+    return (
         <div id="contact" className="contact">
             <h2>Jacob Morris</h2>
             <ul className="contact">
@@ -12,10 +12,14 @@ const ContactForm = (props) => {
                     <h3>Socials</h3>
                     <ul className="icons">
                         <li>
-                            <a href="https://github.com/govern01" target="_blank" rel="noreferrer" className="icon brands fa-github" />
+                            <a href="https://github.com/govern01" target="_blank" rel="noreferrer" className="icon brands fa-github">
+                                <span className="label">GitHub</span>
+                            </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/jjamorris/" target="_blank" rel="noreferrer" className="icon brands fa-linkedin-in" />
+                            <a href="https://www.linkedin.com/in/jjamorris/" target="_blank" rel="noreferrer" className="icon brands fa-linkedin-in">
+                                <span className="label">LinkedIn</span>
+                            </a>
                         </li>
                     </ul>
                 </li>
