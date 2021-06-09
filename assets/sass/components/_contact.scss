@@ -6,7 +6,16 @@
 
 /* Contact */
 
+// Additions by Jacob
+.contact{	
+	border-top: 1px solid _palette(border);
+}
+// End additions
+
 	ul.contact {
+		// Additions by Jacob
+		border-top: 0;
+		// End Additions
 		list-style: none;
 		padding: 0;
 
