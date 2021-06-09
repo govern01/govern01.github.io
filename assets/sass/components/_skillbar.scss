@@ -8,13 +8,13 @@
 /* skillbar */
 .skillBg{
     width: 100%;
-    height: 38px;
+    height: 2em;
     background: _palette(accent1);
 
     .content {
         display: inline;
         font-size: 1em;
-        padding: 5px;
+        padding: 0.13em;
         background-color: rgba(0,0,0,0.2);
         color: white;
     }
