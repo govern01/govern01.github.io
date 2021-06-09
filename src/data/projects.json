@@ -5,6 +5,8 @@
         "desc": "This is my first (of hopefully many) publicly served website, I wanted to challenge myself while building it so I went out of my comfort zone with it. You can view it he-oh wait a minute, you're already here!",
         "img": "",
         "date": "June 2021",
+        "opensource": true,
+        "source": "https://github.com/govern01/govern01.github.io",
         "technologies": [
             "React",
             "Sass",
@@ -16,6 +18,7 @@
         "desc": "My first simple game featuring a ticketed enemy spawning system, third person controller and UI. It’s not a complex game but it’s my first.",
         "img": "",
         "date": "April 2021",
+        "opensource": false,
         "technologies": [
             "Unity",
             "C#"
@@ -26,6 +29,7 @@
         "desc": "In response to locker theft at RMIT, I designed an alarm system that triggers based on a difference in being moved and light synonymous with a locker being opened. In order to access the locker without triggering the alarm, the owner simply has to Bluetooth connect to the alarm.",
         "img": "",
         "date": "May 2019",
+        "opensource": false,
         "technologies": [
             "BBC micro:bit",
             "Javascript"
@@ -36,6 +40,7 @@
         "desc": "As a part of a group project to create a rideshare platform, I was tasked with making a biometric login form, like any sane person with a Raspberry Pi B+ I made facial recognition and it was a nightmare. Despite the hardships of memory usage, I was able to get a working product using OpenCV and face-recognition python packages.",
         "img": "",
         "date": "June 2020",
+        "opensource": false,
         "technologies": [
             "Raspberry Pi",
             "Python",
