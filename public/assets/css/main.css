@@ -2134,6 +2134,11 @@ table {
     background-color: rgba(0, 0, 0, 0.2);
     color: white; }
 
+/* card */
+.card img {
+  max-width: 500px;
+  height: auto; }
+
 /* resume */
 #Blurb {
   position: relative;

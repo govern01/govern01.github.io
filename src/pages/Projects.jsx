@@ -5,8 +5,12 @@ import projects from '../data/projects.json'
 
 const Projects = () => (
     <Main title={"Projects"} description={"Jacob Morris' projects"}>
-        <p>Hello World: This is gonna be a Projects page</p>
-        <p>Datas there just need to make a card component and do some thicc map funcs</p>
+        <h1 className="major">Projects</h1>
+        <p>
+            Below are a selection of the projects that I am proud of!
+            <br />
+            Until I get good photos for each project, I'm going to have to use photos of dogs.
+        </p>
         <ProjectList data={projects}/>
     </Main>
 );

@@ -8,6 +8,10 @@ const ProjectCard = ({ data }) => {
                     &nbsp;--&nbsp;
                     {data.opensource ? <a href={data.source} rel="norefference">Source here</a> : "Closed Source"}</p>
                 </header>
+                {/* I'll add in proper images once I find good images for each project */}
+                {/* Which means I really need to find the source for that anti-theft */}
+                {/* For now we shall use tasteful images of dogs */}
+                <img src={`${process.env.PUBLIC_URL}${data.img}`} alt={`${data.title}-img not found`} />
                 <div>
                     <p>{data.desc}</p>
                     <ul>
