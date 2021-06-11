@@ -1,0 +1,115 @@
+///
+/// Following the Hyperspace theme by HTML5 UP
+/// html5up.net | @ajlkn
+///
+/// Current file developed by Jacob Morris
+///
+
+/* card container */
+.card_container {
+    position: relative;
+    margin-bottom: 10vh;
+
+    .description {
+        position: absolute;
+        padding: 0;
+        bottom: 0%;
+        width: 100%;
+        border-top: 1px solid _palette(accent1-alt);
+        border-bottom: 2px solid _palette(accent1);
+        background-color: rgba(0,0,0, 0.5);
+        transition: background-color 1s ease-out;
+
+        >p {
+            margin-bottom: 0;
+        }
+
+        &:hover {
+            background-color: rgba(0,0,0,0.9);
+        }
+    }
+
+    .techlist{
+        position: absolute;
+        bottom: 100%;
+        width: 100%;
+        border-top: 2px solid _palette(accent1-alt);
+        background-color: rgba(0,0,0, 0.5);
+        transition: background-color 1s ease-out;
+
+        &:hover {
+            background-color: rgba(0,0,0,0.9);
+        }
+
+        >ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            
+            >li {
+                display: inline;
+                padding-left: 1em;
+                padding-right: 1em;
+                border-right: 1px solid _palette(fg);
+
+                &:first-of-type{
+                    padding-left: 0;
+                }
+                &:last-of-type{
+                    padding-right: 0;
+                    border-right: 0;
+                }
+            }
+        }
+    }
+}
+
+/* card */
+.card {
+    border: 2px solid _palette(accent1);
+    margin: -2px;
+    // IDK why this works but it does
+    display: grid;
+
+    >header{
+        padding-top: 2vh;
+        padding-left: 5vw;
+        h3{
+            display: inline;
+        }
+        h4{
+            vertical-align: bottom;
+            display: inline;
+            color: _palette(fg);
+        }
+        p {
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+        }
+    }
+
+    // Code adopted from https://github.com/mldangelo/personal-site/blob/main/src/static/css/components/_mini-post.scss
+    // Code is most likely by @ajlkn given how it fits in the libs code
+    .image {
+        overflow: hidden;
+        object-fit: cover;
+        width: 100%;
+        height: 50vh;
+    
+        img {
+          @include vendor( 'transition', 'transform #{_duration(transition)} ease-out');
+          width: 100%;
+          // Might need to edit this code later given how images are taken.
+          // Potentially figure a way out to resize only beeg images?
+          object-position: 0% -25vh;
+        }
+    
+        &:hover {
+          img {
+            @include vendor( 'transform', 'scale(1.05)');
+          }
+        }
+      }
+    // End code adoption
+}
